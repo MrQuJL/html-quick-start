@@ -32,20 +32,19 @@ CSS（Cascading Style Sheets）即层叠样式表。使用来修饰 html 标签�
 
 推荐个人一直在用的模板（**多用于自娱自乐，具体的规范看公司要求**）：
 
-	```html
-		<!doctype html>
-		<html>
-		<head>
-			<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
-			<title>模板</title>
-			<meta name='keywords' content='关键词,关键词' />
-			<meta name='description' content='网站描述' />
-		</head>
-		<body>
-			<!-- 页面的html代码 -->
-		</body>
-		</html>
-	```
+	<!doctype html>
+	<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+		<title>模板</title>
+		<meta name='keywords' content='关键词,关键词' />
+		<meta name='description' content='网站描述' />
+	</head>
+	<body>
+		<!-- 页面的html代码 -->
+	</body>
+	</html>
+
 
 * ```<!doctype html>```：html5 的头标记。
 
@@ -81,37 +80,33 @@ CSS（Cascading Style Sheets）即层叠样式表。使用来修饰 html 标签�
 
 ## css的写法（选择器）
 
-	```html
-		<head>
-			<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
-			<title>html基础</title>
-			<meta name='keywords' content='关键词,关键词' />
-			<meta name='description' content='网站描述' />
-			<style type="text/css">
-				*{margin:0;padding:0;}
-				/*body{margin:0;}*/
-				div{
-					width:100px;
-					height:100px;
-					background:green;
-					border:10px solid red;
-					padding:20px;
-				}
-			</style>
-		</head>
-	```
+	<head>
+		<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+		<title>html基础</title>
+		<meta name='keywords' content='关键词,关键词' />
+		<meta name='description' content='网站描述' />
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			/*body{margin:0;}*/
+			div{
+				width:100px;
+				height:100px;
+				background:green;
+				border:10px solid red;
+				padding:20px;
+			}
+		</style>
+	</head>
 
 ## js的写法
 
-	```javascript
-		...
-		<body>
-		<script type="text/javascript">
-			alert(1);
-		</script>
-		</body>
-		...
-	```
+	...
+	<body>
+	<script type="text/javascript">
+		alert(1);
+	</script>
+	</body>
+	...
 
 注：可以放在 body 里面，也可以放在 head 里面。
 
@@ -215,14 +210,12 @@ CSS（Cascading Style Sheets）即层叠样式表。使用来修饰 html 标签�
 
 > 因为body默认有8个像素的外边距，导致div盒子不会紧贴浏览器，需要写如下代码来取消默认的外边距：
 
-	```css
-		body{margin:0;}
-	```
+	body{margin:0;}
+
 > 其他的标签也类似，所以我们在 css 样式的第一行统一加上这行代码来取消所有元素的外边距和内边距：
 
-	```css
-		*{margin:0;padding:0;}
-	```
+	*{margin:0;padding:0;}
+
 
 ## 练习
 
