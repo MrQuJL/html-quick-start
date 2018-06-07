@@ -173,9 +173,15 @@ CSS（Cascading Style Sheets）即层叠样式表。使用来修饰 html 标签�
         
         margin:5px 10px 15px; /*上 左右 下*/
         
+		margin: 5px auto 10px; /*上 左右居中 下*/
+
         margin:5px 10px; /*上下 左右*/
         
+		margin:5px auto; /*上下5px 左右居中*/
+
         margin:5px; /*上下左右*/
+
+		margin:auto; /*左右居中*/
 
     3. 一个方向的margin
 
