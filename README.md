@@ -16,12 +16,10 @@
 
 * [html基础-border-padding-margin](https://github.com/MrQuJL/html-quick-start/blob/master/01_html基础-border-padding-margin/README.md "html基础-border-padding-margin")
 
+* [常用标签及属性-外边距合并](https://github.com/MrQuJL/html-quick-start/blob/master/02_常用标签及属性-外边距合并/README.md "常用标签及属性-外边距合并")
 
+* [border绘制三角形](https://github.com/MrQuJL/html-quick-start/blob/master/03_border绘制三角形/README.md "border绘制三角形")
 
-
-
-
-
-
+* [样式初始化-标签的三大类型-text-align-图片左右对齐](https://github.com/MrQuJL/html-quick-start/blob/master/04_样式初始化-标签的三大类型-text-align/README.md "样式初始化-标签的三大类型-text-align-图片左右对齐")
 
 
