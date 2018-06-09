@@ -76,7 +76,7 @@ CSS（Cascading Style Sheets）即层叠样式表。使用来修饰 html 标签�
     2. 右击 --> 审查元素
     3. F12
 
-![image](https://github.com/MrQuJL/html-quick-start/raw/master/01_html基础/imgs/box.png)
+![image](https://github.com/MrQuJL/html-quick-start/raw/master/01_html基础-border-padding-margin/imgs/box.png)
 
 ## css的写法（选择器）
 

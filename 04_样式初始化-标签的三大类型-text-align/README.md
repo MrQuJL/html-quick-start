@@ -65,8 +65,19 @@
 
 6. IE6,7 不支持块级标签的 inline-block
 
-## 
+## 其他
 
+* 使用 display:none 来隐藏一个标签。
+
+* img **可以通过给父级加 text-align 来控制图片的位置**，支持宽高可以一行显示，使用 display:block 来消除底部空白。
+
+### text-align（文本水平对齐方式）
+
+* center：居中对齐，还可以让内部的 inline 和 inline-block 居中，弥补了 inline 和 inline-block 不能居中的不足。
+
+* left：左对齐
+
+* right：右对齐
 
 ## FAQ
 
@@ -77,8 +88,3 @@
 * 问题2：如何让 div 具备内联标签的特性？
 
 * 答：为 div 标签添加 css 样式：display:inline。
-
-* 问题3：如何隐藏一个标签？
-
-* 答：display:none;
-

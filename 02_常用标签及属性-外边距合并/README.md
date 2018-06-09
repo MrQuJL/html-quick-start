@@ -94,7 +94,7 @@
 
 * 主要用于做一些导航：像天猫的：
 
-![image](https://github.com/MrQuJL/html-quick-start/raw/master/02_常用标签及属性/banner.png)
+![image](https://github.com/MrQuJL/html-quick-start/raw/master/02_常用标签及属性-外边距合并/banner.png)
 
 ## ol li（有序列表）
 
@@ -171,7 +171,7 @@
 
 完成如下图片展示效果：
 
-![image](https://github.com/MrQuJL/html-quick-start/raw/master/02_常用标签及属性/example.png)
+![image](https://github.com/MrQuJL/html-quick-start/raw/master/02_常用标签及属性-外边距合并/example.png)
 
 代码如下：
 
