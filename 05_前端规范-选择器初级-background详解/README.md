@@ -46,13 +46,13 @@
 
 * 同一个标签可以有多个 class，用空格隔开 class 名字。
 
-	```
+    ```
     <style type="text/css">
         .c1{width:100px;height:100px;} /*选到class名为c1的标签*/
         .c2{background:red;} /*选到class名为c2的标签*/
     </style>
     <div class="c1 c2"></div>
-	```
+    ```
 
 ### id选择器
 
@@ -60,13 +60,13 @@
 
 * 一个标签只能有一个 id（具有唯一性）。
 
-	```
+    ```
     <style type="text/css">
         #unique{color:red;} /*选到id名为unique的标签*/
     </style>
     <div id="unique"></div>
     <!-- 在当前页面的任何地方都不能在使用 unique 这个 id 名 -->
-	```
+    ```
 
 ### 标签选择器
 
@@ -85,24 +85,24 @@
 
 * background-color（背景颜色）
 
-	```
-	background-color:red;
-	```
+    ```
+    background-color:red;
+    ```
 
 * background-image（背景图片--位于背景图片之上）
 
-	```
-	background-image:url('imgs/1.jpg');
-	```
+    ```
+    background-image:url('imgs/1.jpg');
+    ```
 
 * background-repeat（是否在图片未能铺满盒子的时候平铺满盒子）
 
-	```
-	background-repeat:no-repeat; /*不平铺*/
-	background-repeat:repeat-x; /*只在x轴平铺*/
-	background-repeat:repeat-y; /*只在y轴平铺*/
-	background-repeat:repeat; /*x轴和y轴均平铺（默认）*/
-	```
+    ```
+    background-repeat:no-repeat; /*不平铺*/
+    background-repeat:repeat-x; /*只在x轴平铺*/
+    background-repeat:repeat-y; /*只在y轴平铺*/
+    background-repeat:repeat; /*x轴和y轴均平铺（默认）*/
+    ```
 
 * background-position（背景图片位置）
 
@@ -112,11 +112,11 @@ X: left center right <br/>
 
 Y: top center bottom <br/>
 
-	background-position:left bottom; /*左下*/
-	background-position:right center; /*右中*/
-	background-position:center top; /*中上*/
-	background-position:right; /*右中 - 如果只给一个值，第二个值默认center*/
-	background-position:top; /*上中 - 如果只给一个值，第二个值默认center*/
+    background-position:left bottom; /*左下*/
+    background-position:right center; /*右中*/
+    background-position:center top; /*中上*/
+    background-position:right; /*右中 - 如果只给一个值，第二个值默认center*/
+    background-position:top; /*上中 - 如果只给一个值，第二个值默认center*/
 
 X: % <br/>
 
@@ -124,26 +124,26 @@ Y: % <br/>
 
 **注：百分比可以给负值，图片可以往外跑。** <br/>
 
-	background-position:20% 30%; /*处于水平的20%，垂直的30%的位置*/
-	background-position:-20% 30%;
-	background-position:20%; /*如果只给一个值，另一个值是50%*/
+    background-position:20% 30%; /*处于水平的20%，垂直的30%的位置*/
+    background-position:-20% 30%;
+    background-position:20%; /*如果只给一个值，另一个值是50%*/
 
 X: px <br/>
 
 Y: px <br/>
 
-	background-position:10px 20px; /*图片距左边10px，距离上面20px*/
+    background-position:10px 20px; /*图片距左边10px，距离上面20px*/
 
 **注：px也可以给负值，图片可以往外跑。** <br/>
 
 * background-size（css3-背景图片大小）
 
-	background-size:100px 200px; /*宽100px，高200px*/
-	background-size:100px; /*如果只给1个值，第2个值为auto*/
-	background-size:100px auto; /*等价于上面的情况*/
-	background-size:50% 20%; /*占盒子宽的50%，高的20%*/
-	background-size:contain; /*等比例铺满x轴或y轴其中一个方向*/
-	background-size:cover; /*等比例缩放直到铺满x轴和y轴*/
+    background-size:100px 200px; /*宽100px，高200px*/
+    background-size:100px; /*如果只给1个值，第2个值为auto*/
+    background-size:100px auto; /*等价于上面的情况*/
+    background-size:50% 20%; /*占盒子宽的50%，高的20%*/
+    background-size:contain; /*等比例铺满x轴或y轴其中一个方向*/
+    background-size:cover; /*等比例缩放直到铺满x轴和y轴*/
 
 * 复合样式：background:color image repeat position/size;
 
@@ -157,122 +157,123 @@ Y: px <br/>
 
 
 代码如下：
-
-	<!doctype html>
-	<html>
-	<head>
-		<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
-		<title>新闻列表</title>
-		<meta name='keywords' content='关键词,关键词' />
-		<meta name='description' content='网站描述' />
-		<style type="text/css">
-			*{margin:0;padding:0;}
-			ul{list-style:none;}
-			.content{
-				width:300px;
-				height:312px;
-				border:1px solid #eee;
-				margin:50px auto;
-			}
-			.content .title{
-				width:272px;
-				margin:10px 0 0 18px;
-				padding-top:10px;
-				padding-bottom:10px;
-				border-bottom:1px solid #eee;
-			}
-			.content .title .main-title{
-				font-size:18px;
-				font-weight:bold;
-			}
-			.content .title .sub-title{
-				font-size:16px;
-				font-weight:bold;
-				color:#ddd;
-			}
-			.content ul li a{
-				color:#000;
-				font:14px/1.5 'Microsoft Yahei';
-				text-decoration:none;
-			}
-			.content ul{
-				padding-top:16px;
-				padding-left:18px;
-			}
-			.content ul li{
-				padding-bottom:12px;
-				padding-left:30px;
-			}
-			.content ul li.item1{
-				background-image:url('images/bg.png');
-				background-repeat:no-repeat;
-				background-position:0px 4px;
-			}
-			.content ul li.item2{
-				background-image:url('images/bg.png');
-				background-repeat:no-repeat;
-				background-position:0px -26px;
-			}
-			.content ul li.item3{
-				background-image:url('images/bg.png');
-				background-repeat:no-repeat;
-				background-position:0px -56px;
-			}
-			.content ul li.item4{
-				background-image:url('images/bg.png');
-				background-repeat:no-repeat;
-				background-position:0px -86px;
-			}
-			.content ul li.item5{
-				background-image:url('images/bg.png');
-				background-repeat:no-repeat;
-				background-position:0px -116px;
-			}
-			.content ul li.item6{
-				background-image:url('images/bg.png');
-				background-repeat:no-repeat;
-				background-position:0px -146px;
-			}
-			.content ul li.item7{
-				background-image:url('images/bg.png');
-				background-repeat:no-repeat;
-				background-position:0px -176px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="content">
-			<div class="title">
-				<span class="main-title">潮流排行</span>
-				<span class="sub-title">Most Read</span>
-			</div>
-			<ul>
-				<li class="item1">
-					<a href="#">秋冬拗造型 你也需要一款时髦...</a>
-				</li>
-				<li class="item2">
-					<a href="#">屡登女富豪榜首 川普女儿能挣...</a>
-				</li>
-				<li class="item3">
-					<a href="#">英王室175年传家宝 男女出生必...</a>
-				</li>
-				<li class="item4">
-					<a href="#">k帅穿裙装变美 天使AA换裤装男...</a>
-				</li>
-				<li class="item5">
-					<a href="#">夏琳王妃美过10年前？穿Dior高...</a>
-				</li>
-				<li class="item6">
-					<a href="#">东京红毯吹出强劲中国风 吴亦凡...</a>
-				</li>
-				<li class="item7">
-					<a href="#">一场“最诗艺”的时尚秀</a>
-				</li>
-			</ul>
-		</div>
-	</body>
-	</html>
-
+    
+    ```html
+    <!doctype html>
+    <html>
+    <head>
+        <meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+        <title>新闻列表</title>
+        <meta name='keywords' content='关键词,关键词' />
+        <meta name='description' content='网站描述' />
+        <style type="text/css">
+            *{margin:0;padding:0;}
+            ul{list-style:none;}
+            .content{
+                width:300px;
+                height:312px;
+                border:1px solid #eee;
+                margin:50px auto;
+            }
+            .content .title{
+                width:272px;
+                margin:10px 0 0 18px;
+                padding-top:10px;
+                padding-bottom:10px;
+                border-bottom:1px solid #eee;
+            }
+            .content .title .main-title{
+                font-size:18px;
+                font-weight:bold;
+            }
+            .content .title .sub-title{
+                font-size:16px;
+                font-weight:bold;
+                color:#ddd;
+            }
+            .content ul li a{
+                color:#000;
+                font:14px/1.5 'Microsoft Yahei';
+                text-decoration:none;
+            }
+            .content ul{
+                padding-top:16px;
+                padding-left:18px;
+            }
+            .content ul li{
+                padding-bottom:12px;
+                padding-left:30px;
+            }
+            .content ul li.item1{
+                background-image:url('images/bg.png');
+                background-repeat:no-repeat;
+                background-position:0px 4px;
+            }
+            .content ul li.item2{
+                background-image:url('images/bg.png');
+                background-repeat:no-repeat;
+                background-position:0px -26px;
+            }
+            .content ul li.item3{
+                background-image:url('images/bg.png');
+                background-repeat:no-repeat;
+                background-position:0px -56px;
+            }
+            .content ul li.item4{
+                background-image:url('images/bg.png');
+                background-repeat:no-repeat;
+                background-position:0px -86px;
+            }
+            .content ul li.item5{
+                background-image:url('images/bg.png');
+                background-repeat:no-repeat;
+                background-position:0px -116px;
+            }
+            .content ul li.item6{
+                background-image:url('images/bg.png');
+                background-repeat:no-repeat;
+                background-position:0px -146px;
+            }
+            .content ul li.item7{
+                background-image:url('images/bg.png');
+                background-repeat:no-repeat;
+                background-position:0px -176px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <div class="title">
+                <span class="main-title">潮流排行</span>
+                <span class="sub-title">Most Read</span>
+            </div>
+            <ul>
+                <li class="item1">
+                    <a href="#">秋冬拗造型 你也需要一款时髦...</a>
+                </li>
+                <li class="item2">
+                    <a href="#">屡登女富豪榜首 川普女儿能挣...</a>
+                </li>
+                <li class="item3">
+                    <a href="#">英王室175年传家宝 男女出生必...</a>
+                </li>
+                <li class="item4">
+                    <a href="#">k帅穿裙装变美 天使AA换裤装男...</a>
+                </li>
+                <li class="item5">
+                    <a href="#">夏琳王妃美过10年前？穿Dior高...</a>
+                </li>
+                <li class="item6">
+                    <a href="#">东京红毯吹出强劲中国风 吴亦凡...</a>
+                </li>
+                <li class="item7">
+                    <a href="#">一场“最诗艺”的时尚秀</a>
+                </li>
+            </ul>
+        </div>
+    </body>
+    </html>
+    ```
 
 
 
