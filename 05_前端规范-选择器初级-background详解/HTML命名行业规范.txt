@@ -1,0 +1,32 @@
+命名：根据每块元素的主题 或者功能、在页面上的位置
+
+
+驼峰命名 从第二个单词开始每个单词的首字母大写  #mainLeftBox{}
+每个单词中间以“-”隔开或者‘_’ #main_left_box{}
+
+写包含样式的时候能找到这个元素并且不影响其他元素即可
+页头：header  如：#header{属性:属性值;}或.header{属性:属性值;},也许你需要了解class与id区别及用法
+
+登录条：loginBar         标志：logo                侧栏：sideBar 
+广告：banner              导航：nav                 子导航：subNav
+菜单：menu               子菜单：subMenu      搜索：search
+ 滚动：scroll               页面主体：main         内容：content 
+标签页：tab                 文章列表：list            提示信息：msg
+小技巧：tips                栏目标题：title            加入：joinus
+指南：guild                服务：service              热点：hot
+新闻：news                 下载：download         注册：regsiter 
+状态：status                按钮：btn                    投票：vote 
+合作伙伴：partner       友情链接：friendLink   页脚：footer 
+版权：copyRight 
+
+外　套：wrap           版    权：copyRight      商　标：label              标　题：title 
+       顶导航：topnav 
+边导航：sidebar           左导航：leftsideBar   右导航：rightsideBar 
+           标　语：banner         菜单内容1： menu1Content 
+菜单容量：　menuContainer                  子菜单：　　submenu 
+边导航图标：sidebarIcon                        注释：　　　note 
+面包屑：breadCrumb(即页面所处位置导航提示) 
+容器：container      内容：content          搜索：search
+登陆：login             功能区：　　shop(如购物车，收银台) 
+当前：current 
+ 
