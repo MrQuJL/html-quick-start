@@ -2,7 +2,7 @@
 
 ## 背景
 
-> 开发一些 web 程序，即使是后端难免也要与前端打交道，但是对于大部分后端的程序猿，前端往往又是非常薄弱的（这一点楼主深有体会）。所以就有了这个专门为后端程序猿打造的一套在学完之后可以快速上手干活的 html + css 教程（**前端的程序猿也可以瞅瞅**）。
+> 开发一些 web 程序，即使是后端难免也要与前端打交道，但是对于大部分后端的程序猿，前端往往又是非常薄弱的（这一点楼主深有体会）。所以就有了这个专门为后端程序猿打造的一套在学完之后可以快速上手干活的 html + css 教程。
 
 ## 目标
 
@@ -21,3 +21,5 @@
 * [border绘制三角形【绘制三角形练习】](https://github.com/MrQuJL/html-quick-start/blob/master/03_border绘制三角形/README.md "border绘制三角形")
 
 * [样式初始化-标签的三大类型-text-align-图片左右对齐【商品列表横排展示练习】](https://github.com/MrQuJL/html-quick-start/blob/master/04_样式初始化-标签的三大类型-text-align/README.md "样式初始化-标签的三大类型-text-align-图片左右对齐")
+
+* [前端规范-选择器初级-background详解](https://github.com/MrQuJL/html-quick-start/blob/master/05_前端规范-选择器初级-background详解/README.md "前端规范-选择器初级-background详解")

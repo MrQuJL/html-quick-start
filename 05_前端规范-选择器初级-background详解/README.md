@@ -36,11 +36,46 @@
 
 11. **内联元素不能嵌套块；（a除外）**
 
-12. [更多规范请参考](https://github.com/MrQuJL/html-quick-start/blob/master/05_前端规范-选择器初级-background详解/README.md "更多规范请参考")
+12. [更多规范请参考](https://github.com/MrQuJL/html-quick-start/blob/master/05_前端规范-选择器初级-background详解/HTML命名行业规范.txt "更多规范请参考")
 
 ## 选择器初级
 
+### class选择器
 
+* 相同的 class 名可以在页面中出现多次。
+
+* 同一个标签可以有多个 class，用空格隔开 class 名字。
+
+	<style type="text/css">
+		.c1{width:100px;height:100px;} /*选到class名为c1的标签*/
+		.c2{background:red;} /*选到class名为c2的标签*/
+	</style>
+	<div class="c1 c2"></div>
+
+### id选择器
+
+* 一个 id 名在页面中只能出现一次，如果出现多次，查找的 id 总是页面中第一次出现的。
+
+* 一个标签只能有一个 id（具有唯一性）。
+
+	<style type="text/css">
+		#unique{color:red;} /*选到id名为unique的标签*/
+	</style>
+	<div id="unique"></div>
+	<!-- 在当前页面的任何地方都不能在使用 unique 这个 id 名 -->
+
+### 标签选择器
+
+	<style type="text/css">
+		div{background-color:yellow;} /*选到div标签*/
+	</style>
+	<div></div>
+
+### 通配符选择器
+
+	<style type="text/css">
+		*{margin:0;padding:0;} /*选到所有的标签*/
+	</style>
 
 ## background详解
 
