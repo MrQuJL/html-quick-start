@@ -112,13 +112,11 @@ X: left center right <br/>
 
 Y: top center bottom <br/>
 
-	```
 	background-position:left bottom; /*左下*/
 	background-position:right center; /*右中*/
 	background-position:center top; /*中上*/
 	background-position:right; /*右中 - 如果只给一个值，第二个值默认center*/
 	background-position:top; /*上中 - 如果只给一个值，第二个值默认center*/
-	```
 
 X: % <br/>
 
@@ -126,33 +124,29 @@ Y: % <br/>
 
 **注：百分比可以给负值，图片可以往外跑。** <br/>
 
-	```
 	background-position:20% 30%; /*处于水平的20%，垂直的30%的位置*/
 	background-position:-20% 30%;
 	background-position:20%; /*如果只给一个值，另一个值是50%*/
-	```
 
 X: px <br/>
 
 Y: px <br/>
 
-	```
 	background-position:10px 20px; /*图片距左边10px，距离上面20px*/
-	```
 
 **注：px也可以给负值，图片可以往外跑。** <br/>
 
 * background-size（css3-背景图片大小）
 
+	background-size:100px 200px; /*宽100px，高200px*/
+	background-size:100px; /*如果只给1个值，第2个值为auto*/
+	background-size:100px auto; /*等价于上面的情况*/
+	background-size:50% 20%; /*占盒子宽的50%，高的20%*/
+	background-size:contain; /*等比例铺满x轴或y轴其中一个方向*/
+	background-size:cover; /*等比例缩放直到铺满x轴和y轴*/
 
+* 复合样式：background:color image repeat position/size;
 
-
-
-
-
-
-
-
-
+* **注：复合样式中的 position 和 size 之间必须要加 "/" 来分割，而且 size 必须要放在 position 后面，其余的三个值的位置都可以随意更换位置。**
 
 
