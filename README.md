@@ -22,4 +22,4 @@
 
 * [样式初始化-标签的三大类型-text-align-图片左右对齐【商品列表横排展示练习】](https://github.com/MrQuJL/html-quick-start/blob/master/04_样式初始化-标签的三大类型-text-align/README.md "样式初始化-标签的三大类型-text-align-图片左右对齐")
 
-* [前端规范-选择器初级-background详解](https://github.com/MrQuJL/html-quick-start/blob/master/05_前端规范-选择器初级-background详解/README.md "前端规范-选择器初级-background详解")
+* [前端规范-选择器初级-background详解【新闻排行榜练习】](https://github.com/MrQuJL/html-quick-start/blob/master/05_前端规范-选择器初级-background详解/README.md "前端规范-选择器初级-background详解")

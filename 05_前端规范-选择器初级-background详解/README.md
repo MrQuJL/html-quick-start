@@ -158,7 +158,6 @@ Y: px <br/>
 
 代码如下：
     
-    ```html
     <!doctype html>
     <html>
     <head>
@@ -273,7 +272,6 @@ Y: px <br/>
         </div>
     </body>
     </html>
-    ```
 
 
 
