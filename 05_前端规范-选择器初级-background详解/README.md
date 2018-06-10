@@ -149,4 +149,130 @@ Y: px <br/>
 
 * **注：复合样式中的 position 和 size 之间必须要加 "/" 来分割，而且 size 必须要放在 position 后面，其余的三个值的位置都可以随意更换位置。**
 
+## 练习
+
+完成如下图片展示效果：
+
+![image](https://github.com/MrQuJL/html-quick-start/raw/master/05_前端规范-选择器初级-background详解/images/效果.png)
+
+
+代码如下：
+
+	<!doctype html>
+	<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+		<title>新闻列表</title>
+		<meta name='keywords' content='关键词,关键词' />
+		<meta name='description' content='网站描述' />
+		<style type="text/css">
+			*{margin:0;padding:0;}
+			ul{list-style:none;}
+			.content{
+				width:300px;
+				height:312px;
+				border:1px solid #eee;
+				margin:50px auto;
+			}
+			.content .title{
+				width:272px;
+				margin:10px 0 0 18px;
+				padding-top:10px;
+				padding-bottom:10px;
+				border-bottom:1px solid #eee;
+			}
+			.content .title .main-title{
+				font-size:18px;
+				font-weight:bold;
+			}
+			.content .title .sub-title{
+				font-size:16px;
+				font-weight:bold;
+				color:#ddd;
+			}
+			.content ul li a{
+				color:#000;
+				font:14px/1.5 'Microsoft Yahei';
+				text-decoration:none;
+			}
+			.content ul{
+				padding-top:16px;
+				padding-left:18px;
+			}
+			.content ul li{
+				padding-bottom:12px;
+				padding-left:30px;
+			}
+			.content ul li.item1{
+				background-image:url('images/bg.png');
+				background-repeat:no-repeat;
+				background-position:0px 4px;
+			}
+			.content ul li.item2{
+				background-image:url('images/bg.png');
+				background-repeat:no-repeat;
+				background-position:0px -26px;
+			}
+			.content ul li.item3{
+				background-image:url('images/bg.png');
+				background-repeat:no-repeat;
+				background-position:0px -56px;
+			}
+			.content ul li.item4{
+				background-image:url('images/bg.png');
+				background-repeat:no-repeat;
+				background-position:0px -86px;
+			}
+			.content ul li.item5{
+				background-image:url('images/bg.png');
+				background-repeat:no-repeat;
+				background-position:0px -116px;
+			}
+			.content ul li.item6{
+				background-image:url('images/bg.png');
+				background-repeat:no-repeat;
+				background-position:0px -146px;
+			}
+			.content ul li.item7{
+				background-image:url('images/bg.png');
+				background-repeat:no-repeat;
+				background-position:0px -176px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="title">
+				<span class="main-title">潮流排行</span>
+				<span class="sub-title">Most Read</span>
+			</div>
+			<ul>
+				<li class="item1">
+					<a href="#">秋冬拗造型 你也需要一款时髦...</a>
+				</li>
+				<li class="item2">
+					<a href="#">屡登女富豪榜首 川普女儿能挣...</a>
+				</li>
+				<li class="item3">
+					<a href="#">英王室175年传家宝 男女出生必...</a>
+				</li>
+				<li class="item4">
+					<a href="#">k帅穿裙装变美 天使AA换裤装男...</a>
+				</li>
+				<li class="item5">
+					<a href="#">夏琳王妃美过10年前？穿Dior高...</a>
+				</li>
+				<li class="item6">
+					<a href="#">东京红毯吹出强劲中国风 吴亦凡...</a>
+				</li>
+				<li class="item7">
+					<a href="#">一场“最诗艺”的时尚秀</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+	</html>
+
+
+
 
