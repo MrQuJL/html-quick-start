@@ -155,7 +155,6 @@ Y: px <br/>
 
 ![image](https://github.com/MrQuJL/html-quick-start/raw/master/05_前端规范-选择器初级-background详解/images/效果.png)
 
-
 代码如下：
     
     <!doctype html>
