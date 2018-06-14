@@ -60,6 +60,51 @@
 
 ## text
 
+### text-transform（转换字母大小写）
+
+	text-transform:uppercase; /*大写*/
+	text-transform:lowercase; /*小写*/
+	text-transform:capitalize; /*首字母大写*/
+
+### text-align（文本水平对齐方式）
+
+	text-align:center; /*文本居中对齐*/
+	text-align:left; /*文本居左对齐*/
+	text-align:right; /*文本居右对齐*/
+	text-align:justify; /*文本两端对齐，文字占满一行的情况下才可以两端对齐*/
+
+### text-indent（文本缩进）
+
+	text-indent:20px; /*首行缩进20像素*/
+	text-indent:2em; /*首行缩进两个汉字*/
+
+### text-decoration（文本修饰）
+
+	text-decoration:underline; /*下划线*/
+	text-decoration:line-through; /*删除线*/
+	text-decoration:overline; /*上划线*/
+	text-decoration:none; /*不要修饰*/
+
+### letter-spacing（字符间距）
+
+	letter-spacing:10px; /*每个字符间10px的间距*/
+
+### word-spacing（单词/字间距）
+
+	word-spacing:10px; /*根据文本之间是否有空格来判断是不是一个单词*/
+
+### white-space（换行方式）
+
+	white-space:normal; /*默认不换行*/
+	white-space:nowrap; /*文本不会换行，文本会在同一行上继续显示（即使超出了盒子的宽度），直到遇到<br> 标签为止*/
+
+### word-break（拆分单词进行换行）
+
+	word-break:break-all; /*如果是单词需要占两行的话会对单词进行拆分然后再换行*/
+
+
+
+
 
 
 ## overflow
