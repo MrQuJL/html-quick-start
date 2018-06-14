@@ -26,6 +26,8 @@
 
 * [margin负值](https://github.com/MrQuJL/html-quick-start/blob/master/06_margin负值/README.md "margin负值")
 
+* [font-text-overflow-text-overflow-特殊符号](https://github.com/MrQuJL/html-quick-start/blob/master/07_font-text-overflow-text-overflow-特殊符号/README.md "font-text-overflow-text-overflow-特殊符号")
+
 
 
 
