@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv='Content-Type' content='text/html;charset=utf-8' />
+	<title>fake-element</title>
+	<meta name='keywords' content='关键词,关键词' />
+	<meta name='description' content='网站描述' />
+	<style type="text/css">
+		*{margin:0;padding:0;}
+		div{
+			width:400px;
+			height:400px;
+			border:1px solid red;
+		}
+		div::before{
+			content:'前面';
+		}
+		div::after{
+			content:'后面';
+			display:block;
+			width:100px;
+			height:100px;
+			background:red;
+		}
+	</style>
+</head>
+<body>
+	<div>正式的内容</div>
+</body>
+</html>

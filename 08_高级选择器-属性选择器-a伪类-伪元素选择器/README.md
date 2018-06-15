@@ -77,11 +77,68 @@
 	p[class][id]{color:red;}
 	/*匹配是p标签并且具有class属性和id属性的元素*/
 
+## 伪类
 
+### :link
 
+匹配所有未被点击的连接
 
+	a:link{color:red;}
 
+### :visited
 
+匹配点击之后的元素
 
+	a:visited{color:pink;}
 
+### :hover **（常用）**
 
+鼠标划入元素内部的时候的样式
+
+	a:hover{color:yellow;}
+
+### :active
+
+匹配点击的时候的元素
+
+	a:active{color:blue;}
+
+### **伪类应用**
+
+鼠标划入的时候显示或隐藏或让某个元素变色。
+
+	<div>
+		<p>hello world</p>
+	</div>
+	
+	div p{
+		width:50px;
+		height:50px;
+		transition:background 1s; /*css3：只让background过渡1s/
+	}
+
+	div:hover p{ /*div被划入的时候下面的p标签背景颜色变成蓝色*/
+		background:blue;
+	}
+
+## 伪元素选择器
+
+### ::before（在元素内容前面插入内容）
+
+	div::before{
+		content:'前面';
+	}
+	<div>正式的内容</div>
+
+### ::after（在元素内容后面插入内容）
+
+	div::after{
+		content:'后面';
+		display:block; /*这就是伪元素名称的由来，像个盒子一样*/
+		width:100px;
+		height:100px;
+		background:red;
+	}
+	<div>正式的内容</div>
+
+注：伪元素单冒号和双冒号都可以识别，但是建议使用双冒号，目的是为了区分伪类。
