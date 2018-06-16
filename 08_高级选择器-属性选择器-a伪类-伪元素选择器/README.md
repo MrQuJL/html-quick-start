@@ -51,8 +51,7 @@
 ### [attr~=val]
 	
 	[class~='box']{background:red;}
-	/*匹配所有具有att属性并且其值包含'box'或者等于'box'的元素(box必须是一个完整词)
-*/
+	/*匹配所有具有att属性并且其值包含'box'或者等于'box'的元素(box必须是一个完整词)*/
 	<div class="box x">div1</div> <!-- 匹配 -->
 	<div class="box">div2</div> <!-- 匹配 -->
 	<div class="box1"></div> <!-- 不匹配 -->
