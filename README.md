@@ -20,6 +20,7 @@
 
 * [font-text-overflow-text-overflow-特殊符号](https://github.com/MrQuJL/html-quick-start/blob/master/07_font-text-overflow-text-overflow-特殊符号/README.md "font-text-overflow-text-overflow-特殊符号")
 
+* [高级选择器-属性选择器-a伪类-伪元素选择器](https://github.com/MrQuJL/html-quick-start/blob/master/08_高级选择器-属性选择器-a伪类-伪元素选择器/README.md "高级选择器-属性选择器-a伪类-伪元素选择器")
 
 
 
