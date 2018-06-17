@@ -22,6 +22,7 @@
 
 * [高级选择器-属性选择器-a伪类-伪元素选择器](https://github.com/MrQuJL/html-quick-start/blob/master/08_高级选择器-属性选择器-a伪类-伪元素选择器/README.md "高级选择器-属性选择器-a伪类-伪元素选择器")
 
+* [样式优先级-CSS3](https://github.com/MrQuJL/html-quick-start/blob/master/09_样式优先级-CSS3/README.md "样式优先级-CSS3")
 
 
 
