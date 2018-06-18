@@ -1,4 +1,4 @@
-# 选择器优先级 样式 样式优先级 CSS3
+# 选择器优先级 样式 样式优先级 overflow CSS3
 
 ## 选择器优先级
 
@@ -45,26 +45,26 @@
 
 ### border-radius（圆角）
 
-	border-radius:10px 10px 10px 10px; /*左上 右上 右下 左下*/
-	border-radius:10px 20px 10px; /*左上 右上+左下 右下*/
-	border-radius:50px 10px; /*左上+右下 右上+左下*/
-	border-radius:50px; /*左上 右下 右上 左下*/
-	
-	border-top-left-radius:10px; /*左上角*/
-	border-top-right-radius:10px; /*右上角*/
-	border-bottom-left-radius:10px; /*左下角*/
-	border-bottom-right-radius:10px; /*右下角*/
+    border-radius:10px 10px 10px 10px; /*左上 右上 右下 左下*/
+    border-radius:10px 20px 10px; /*左上 右上+左下 右下*/
+    border-radius:50px 10px; /*左上+右下 右上+左下*/
+    border-radius:50px; /*左上 右下 右上 左下*/
+    
+    border-top-left-radius:10px; /*左上角*/
+    border-top-right-radius:10px; /*右上角*/
+    border-bottom-left-radius:10px; /*左下角*/
+    border-bottom-right-radius:10px; /*右下角*/
 
 怎么画圆呢？
 
-	border-radius:50%; /*前提盒子是正方形*/
-	/*最多只能圆到50%*/
+    border-radius:50%; /*前提盒子是正方形*/
+    /*最多只能圆到50%*/
 
 怎么画胶囊呢？（常用于画按钮）
 
-	width:400px;
-	height:100px; /*高度矮一点*/
-	border-radius:50%;
+    width:400px;
+    height:100px; /*高度矮一点*/
+    border-radius:50%;
 
 ### box-shadow（盒子阴影）
 
@@ -80,21 +80,33 @@
 
 * 外部阴影（默认） 内部阴影（inset可选）
 
-	box-shadow:20px 0px 5px 2px #000;
-	box-shadow:0px 0px 15px 2px #ddd inset;
 
+    box-shadow:20px 0px 5px 2px #000;
+    box-shadow:0px 0px 15px 2px #ddd inset;
 
+## overflow（内容溢出）
 
+* visible（默认，显示）
 
+* hidden（隐藏）
 
+* auto（会根据宽高的溢出情况自动出现滚动条或者不出现滚动条）
 
+* scroll（无论图片有没有超出父级的宽度都会出现滚动条）
 
+## overflow-x（只针对x轴进行操作）
 
+    overflow-x:hidden;
 
+## overflow-y（只针对y轴进行操作）
 
+    overflow-y:hidden;
 
+## opacity（盒子透明）
 
+    opactity: 透明 0~1; /*0 完全透明 1 完全不透明*/
+    /*并没有消失*/
+    opactity:0.5;
+    filter:alpha(opacity=1~100); /*若想兼容IE加上这句*/
 
-
-
-
+    一个颜色值：transparent（透明）
