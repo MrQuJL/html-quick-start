@@ -39,7 +39,32 @@
 
 ## ! important
 
-    div{background:red !important;} /*优先级最大*/
+    div{background:red !important;} /*优先级最大，尽量不要使用*/
+
+## CSS3
+
+### border-radius（圆角）
+
+	border-radius:10px 10px 10px 10px; /*左上 右上 右下 左下*/
+	border-radius:10px 20px 10px; /*左上 右上+左下 右下*/
+	border-radius:50px 10px; /*左上+右下 右上+左下*/
+	border-radius:50px; /*左上 右下 右上 左下*/
+	
+	border-top-left-radius:10px; /*左上角*/
+	border-top-right-radius:10px; /*右上角*/
+	border-bottom-left-radius:10px; /*左下角*/
+	border-bottom-right-radius:10px; /*右下角*/
+
+怎么画圆呢？
+
+	border-radius:50%; /*前提盒子是正方形*/
+	/*最多只能圆到50%*/
+
+
+
+
+
+
 
 
 
