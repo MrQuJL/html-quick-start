@@ -60,6 +60,34 @@
 	border-radius:50%; /*前提盒子是正方形*/
 	/*最多只能圆到50%*/
 
+怎么画胶囊呢？（常用于画按钮）
+
+	width:400px;
+	height:100px; /*高度矮一点*/
+	border-radius:50%;
+
+### box-shadow（盒子阴影）
+
+* h-shadow 水平偏移量，允许负值（必须）
+
+* v-shadow 垂直偏移量，允许负值（必须）
+
+* blur 模糊半径（可选）
+
+* spread 阴影的大小（可选）
+
+* color 阴影的颜色（可选）
+
+* 外部阴影（默认） 内部阴影（inset可选）
+
+	box-shadow:20px 0px 5px 2px #000;
+	box-shadow:0px 0px 15px 2px #ddd inset;
+
+
+
+
+
+
 
 
 
