@@ -26,7 +26,7 @@
 
 * [float浮动](https://github.com/MrQuJL/html-quick-start/blob/master/10_float浮动/README.md "float浮动")
 
-* [position定位-background-attachment](https://github.com/MrQuJL/html-quick-start/blob/master/11_position定位-background-attachment/README.md "position定位-background-attachment")
+* [position定位](https://github.com/MrQuJL/html-quick-start/blob/master/11_position定位-background-attachment/README.md "position定位")
 
 
 
