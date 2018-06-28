@@ -28,6 +28,7 @@
 
 * [position定位](https://github.com/MrQuJL/html-quick-start/blob/master/11_position定位-background-attachment/README.md "position定位")
 
+* [html以及css规范-emmet用法](https://github.com/MrQuJL/html-quick-start/blob/master/12_html以及css规范-emmet用法/README.md "html以及css规范-emmet用法")
 
 
 
