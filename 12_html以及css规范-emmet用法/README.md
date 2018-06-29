@@ -72,18 +72,38 @@
 
 * 扩展名写法：加-或_
 
+# CSS规范
 
+* css属性值需要用到引号时，统一使用单引号
 
+	```
+	selectors{ font-family:'\5FAE\8F6F\96C5\9ED1';}
+	```
 
+* 删除css属性值为0的单位
 
+	```
+	/* 不推荐 */ 
+	selectors{ margin:0px; padding:0px;}
+	/* 推荐 */ 
+	selectors{ margin:0; padding:0;}
+	```
 
+# 注释
 
+* 行间注释
 
+	```
+	.search{background: url('')  no-repeat; /*定义搜索框的背景*/}
+	```
 
+* 整段注释
 
-
-
-
+	```
+	 /*===== 搜索条 =====*/
+	.search {background: url(../img/search.gif) no-repeat;}
+	/*===== 搜索条结束 =====*/
+	```
 
 
 
