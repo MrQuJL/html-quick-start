@@ -72,7 +72,7 @@
 
 * 扩展名写法：加-或_
 
-# CSS规范
+## CSS规范
 
 * css属性值需要用到引号时，统一使用单引号
 
@@ -89,7 +89,7 @@
 	selectors{ margin:0; padding:0;}
 	```
 
-# 注释
+## 注释
 
 * 行间注释
 
@@ -104,6 +104,25 @@
 	.search {background: url(../img/search.gif) no-repeat;}
 	/*===== 搜索条结束 =====*/
 	```
+
+## Emmet HTML/CSS代码快速编写神器 
+
+* editplus下找到Zen Coding菜单
+
+* 勾选 使用Emmet和Tab键拓展
+
+* 初始化,如果不是创建的html文本，需要保存html文档才能使用
+
+* 使用技巧：写入代码，然后按Tab键标签会自动补全
+
+* 例：div + tab 会自动补全div标签
+
+
+
+
+
+
+
 
 
 
