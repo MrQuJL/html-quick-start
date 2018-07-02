@@ -21,9 +21,18 @@ inline  inline-block img图片标签才具有
 
 * vertical-align可以解决img下方间隙问题；
 
-
-
 ## img特征
+
+* 支持宽高
+
+* 支持margin（横排展示）
+
+* 能设置text-align
+
+* 能设置vertical-align
+
+* 问题：标签中间隙被解析，不支持marginauto;
+
 
 ## cursor
 
