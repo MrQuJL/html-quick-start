@@ -33,13 +33,27 @@ inline  inline-block img图片标签才具有
 
 * 问题：标签中间隙被解析，不支持marginauto;
 
+## cursor（指针样式）
 
-## cursor
+* cursor: pointer | text | move ......
+
+* default: 默认光标（通常是一个箭头）
+
+* auto: 默认，浏览器设置的光标。
+
+* pointer: 光标呈现为指示链接的指针（一只手）
+
+* move: 此光标指示某对象可被移动。
+
+* text: 光标指示文本。
+
+* wait: 光标指示正忙（通常是一只表或沙漏）。
+
+* help: 光标指示帮助（通常是一个问号或一个气球）。
+
+* 自定义指针样式：cursor:url(hand.cur),pointer;
 
 ## opacity
-
-
-
 
 
 
