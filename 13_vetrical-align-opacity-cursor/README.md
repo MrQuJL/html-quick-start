@@ -55,6 +55,17 @@ inline  inline-block img图片标签才具有
 
 ## opacity
 
+* opacity 属性设置元素的不透明级别
 
+* 标准 不透明度：opacity:0~1; 
 
+* 从 0（完全透明）
+
+* 到 1（完全不透明）
+
+* IE 滤镜： filter:alpha(opacity=0~100);
+
+* 从 0（完全透明）
+
+* 到 100（完全不透明）
 
