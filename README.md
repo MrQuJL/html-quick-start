@@ -1,8 +1,8 @@
 # html-quick-start
 
-## 目标
+## 概述
 
-一套简明的可快速上手的 html + css 教程。
+> html + css 学习笔记整理
 
 ## 目录
 
@@ -30,6 +30,9 @@
 
 * [html以及css规范-emmet用法](https://github.com/MrQuJL/html-quick-start/blob/master/12_html以及css规范-emmet用法/README.md "html以及css规范-emmet用法")
 
+* [vetrical-align-opacity-cursor](https://github.com/MrQuJL/html-quick-start/blob/master/13_vetrical-align-opacity-cursor/README.md "vetrical-align-opacity-cursor")
+
+* [form表单](https://github.com/MrQuJL/html-quick-start/blob/master/14_form表单/README.md "form表单")
 
 
 
