@@ -24,6 +24,29 @@
 8. th,td中没有margin
 9. 单元格可以包含:(文本、图片、列表、段落、表单、表格) 等等。
 
+## table样式重置
+
+* 属性：
+
+* width 规定表格的宽度
+
+* height 规定表格的高度
+
+* border 规定表格边框的宽度
+
+* 样式属性：
+
+* border-spacing:X Y 指定单元格边界之间的水平和垂直间距
+
+* border-collapse:collapse 如果可能，边框会合并为一个单一的边框。会忽略 border-spacing
+
+### 表格样式重置
+
+* table{border-collapse:collapse;} 
+
+* th,td{padding:0;} 重置单元格默认填充
+
+
 
 
 
