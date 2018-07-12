@@ -46,10 +46,19 @@
 
 * th,td{padding:0;} 重置单元格默认填充
 
+### table 单元格合并
 
+* rowspan 属性规定单元格纵跨的行数（纵向合并）```<td rowspan="2"></td>```
 
+* colspan 属性规定单元格横跨的列数（横向合并）```<td colspan="2"></td>```
 
+### display:table 的特征
 
+* 支持margin:auto;
 
+* 默认内容撑开宽度；
 
+* 支持宽高
+
+* 表格前后带有换行符。
 
