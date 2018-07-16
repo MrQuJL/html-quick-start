@@ -46,6 +46,37 @@ CSS继承指的是，特定的CSS属性向下传递到子孙元素
 		* 如果 选中下面的---添加到项目--可以保存起来，方便下次再用，也可以实现与你之前的图标合并，
 		* 如果 选中 ---下载---就直接下载了
 
+### 阿里图标使用
+
+1. 我们项目的文件夹新建一个iconfont文件夹，然后将下载好的文件黏贴在里面
+
+2. 使用在项目中使用link标签引入iconfont中的 iconfont.css：
+	<link rel="stylesheet" type="text/css" href="./iconfont.css">
+
+3. 在需要使用阿里图标的 class中添加iconfont 类名：
+	<i class="iconfont"></i>
+
+4. 点击demo_fontclass.html文档，在浏览器中打开
+
+5. 找到需要的图标，复制下面的icon-xxx名字到<i class="iconfont icon-xxx"></i>作为标签的类型，这样图标就OK了
+
+### ico网站logo
+
+1. 首先得有一个.ico 作为扩展名 文件
+
+2. 通过```<link rel="icon" href="url路径"  type="image/x-icon">```引入即可，具体如下：
+
+	<link rel="shortcut icon" href="/dir/favicon.ico"  type="image/x-icon">
+
+
+
+
+
+
+
+
+
+
 
 
 
