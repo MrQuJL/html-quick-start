@@ -43,6 +43,8 @@
 
 * 子元素：为后续子元素添加 clear:both  样式
 
+	<div style="clear:both;"></div>
+
 * 父元素：after 元素内部末尾添加内容（**时下主流**）
     
     div::after{
